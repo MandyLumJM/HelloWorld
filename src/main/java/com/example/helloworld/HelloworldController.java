@@ -13,4 +13,11 @@ public class HelloworldController {
 			
 		}
 		
+		@GetMapping("/bye")
+		public String bye() {
+			
+			return "ByeBye";
+			
+		}
+		
 }
